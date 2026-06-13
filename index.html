@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTendências | Relatório Anual de Preços: Soja, Feijão e Trigo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="accessibility-bar" role="complementary" aria-label="Controles de Acessibilidade">
+        <button id="btn-font-decrease" aria-label="Diminuir tamanho do texto">A-</button>
+        <button id="btn-font-increase" aria-label="Aumentar tamanho do texto">A+</button>
+        <button id="btn-contrast" aria-label="Alternar alto contraste">Alto Contraste</button>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">Agro<span>Tendências</span></div>
+            <nav class="nav-menu">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#dados">Dados de Mercado</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#faq">Perguntas Frequentes</a>
+            </nav>
+            <a href="#cta-form" class="btn btn-secondary">Acessar Relatório</a>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Relatório Exclusivo Mercado 2026</span>
+                <h1>Antecipe o mercado de <strong>Soja, Feijão e Trigo</strong> com dados de alta precisão</h1>
+                <p>Descubra as flutuações, médias anuais históricas e projeções estratégicas que os grandes produtores utilizam para maximizar lucros e mitigar riscos na safra atual.</p>
+                <div class="hero-actions">
+                    <a href="#cta-form" class="btn btn-primary">Baixar Relatório Gratuito</a>
+                </div>
+            </div>
+            <div class="hero-image-placeholder">
+                <div class="chart-mockup">
+                    <div class="bar bar-soja" style="height: 80%"><span>Soja</span></div>
+                    <div class="bar bar-feijao" style="height: 60%"><span>Feijão</span></div>
+                    <div class="bar bar-trigo" style="height: 45%"><span>Trigo</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Por que analisar as médias de preço históricas?</h2>
+            <div class="grid-benefits">
+                <div class="card-benefit">
+                    <div class="icon">📈</div>
+                    <h3>Decisões Baseadas em Dados</h3>
+                    <p>Esqueça os achismos. Saiba exatamente o momento histórico de maior valorização para fechar seus contratos futuros.</p>
+                </div>
+                <div class="card-benefit">
+                    <div class="icon">🛡️</div>
+                    <h3>Proteção Contra Volatilidade</h3>
+                    <p>Entenda os ciclos de preço da soja, feijão e trigo para proteger sua margem operacional contra quedas abruptas.</p>
+                </div>
+                <div class="card-benefit">
+                    <div class="icon">💎</div>
+                    <h3>Vantagem Competitiva</h3>
+                    <p>Acesse análises consolidadas que apenas grandes tradings possuem, agora disponíveis para o seu planejamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dados" class="data-section">
+        <div class="container">
+            <h2 class="section-title">Panorama das Culturas Analisadas</h2>
+            <p class="section-subtitle">Acompanhe os destaques de desempenho das principais commodities agrícolas.</p>
+            
+            <div class="carousel-container">
+                <div id="carousel-track" class="carousel-track">
+                    </div>
+                <div class="carousel-controls">
+                    <button id="carousel-prev" class="btn-nav" aria-label="Slide anterior">❮</button>
+                    <button id="carousel-next" class="btn-nav" aria-label="Próximo slide">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Quem confia em nossas análises</h2>
+            <div class="grid-testimonials">
+                <div class="card-testimonial">
+                    <p class="testimonial-text">"Com as médias históricas de soja e trigo fornecidas, conseguimos antecipar nossa compra de insumos e planejar a venda com margem 14% superior ao ano passado."</p>
+                    <div class="testimonial-author">
+                        <strong>Ricardo Mendes</strong>
+                        <span>Produtor Rural - Sorriso/MT</span>
+                    </div>
+                </div>
+                <div class="card-testimonial">
+                    <p class="testimonial-text">"O monitoramento das médias anuais do feijão mudou completamente nossa estratégia de estocagem na cooperativa. Ferramenta indispensável."</p>
+                    <div class="testimonial-author">
+                        <strong>Helena Albuquerque</strong>
+                        <span>Diretora de Operações Agrícolas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div id="faq-accordion" class="accordion-container">
+                </div>
+        </div>
+    </section>
+
+    <section id="cta-form" class="cta-section">
+        <div class="container cta-container">
+            <div class="cta-text">
+                <h2>Receba a análise completa das médias de preços direto no seu e-mail</h2>
+                <p>Inscreva-se agora para garantir acesso gratuito ao PDF consolidado com gráficos detalhados, tendências macroeconômicas e projeções exclusivas para o fechamento deste ano.</p>
+            </div>
+            <div class="cta-card">
+                <form id="lead-form" onsubmit="event.preventDefault(); alert('Acesso liberado! O link do relatório foi enviado para o seu e-mail.');">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" required placeholder="Ex: João Silva">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail Corporativo ou Pessoal</label>
+                        <input type="email" id="email" required placeholder="Ex: joao@agro.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="culture">Cultura de Maior Interesse</label>
+                        <select id="culture" required>
+                            <option value="">Selecione uma opção...</option>
+                            <option value="soja">Soja</option>
+                            <option value="feijao">Feijão</option>
+                            <option value="trigo">Trigo</option>
+                            <option value="todas">Todas as anteriores</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Download Gratuito do Relatório</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 AgroTendências Análise de Mercados Ltda. Todos os direitos reservados.</p>
+            <p>Aviso: As análises baseiam-se em dados históricos e não constituem garantia de rentabilidade futura.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
